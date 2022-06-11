@@ -4,5 +4,5 @@ freeStyleJob('example') {
     }
     steps {
         gradle('clean build')
-    }
+     }
 }
