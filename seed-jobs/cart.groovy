@@ -1,7 +1,7 @@
 multibranchPipelineJob('CI-pipelines/cart') {
     branchSources {
         git {
-            id('123456789') // IMPORTANT: use a constant and unique identifier
+            id('23a744ab-a013-4682-addb-38fc7ccf8606') // IMPORTANT: use a constant and unique identifier
             remote('https://github.com/mk-mark/cart.git')
             credentialsId('github-ci')
             includes('JENKINS-*')
